@@ -30,9 +30,9 @@ var styleCustomizer = {
 		case 'outerBgType':
 			if(!this.files.outerBgImage) {
 				if(value === 'pattern') {
-					lessVars.outerBgImage = '../images/bg-pattrens/pattren-bg.png';
+					lessVars.outerBgImage = '../images/bg-patterns/pattern-bg.png';
 				} else if (value === 'image') {
-					lessVars.outerBgImage = '../images/bg-pattrens/bg1.jpg';
+					lessVars.outerBgImage = '../images/bg-patterns/bg1.jpg';
 				}
 			}
 			break;
@@ -95,7 +95,7 @@ var styleCustomizer = {
 		}
 		css = css.innerHTML;
 		if(this.files.outerBgImage) {
-			css = css.replace(/url\("blob:[^"]+"\)/, 'url("../images/bg-pattrens/' + this.files.outerBgImage.name + '")');
+			css = css.replace(/url\("blob:[^"]+"\)/, 'url("../images/bg-patterns/' + this.files.outerBgImage.name + '")');
 		}
 		return css;
 	}

@@ -3290,13 +3290,13 @@ ul.footer-flickr {
   text-align: center;
   background: #161616 url(../images/site-img46.png) center 150px no-repeat;
 }
-/* section pattren 1
+/* section pattern 1
  ------------------------------ */
-.section-pattren-1 {
+.section-pattern-1 {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: url(../images/bg-pattrens/pattren33.png) 0 0 repeat;
+  background: url(../images/bg-patterns/pattern33.png) 0 0 repeat;
 }
 
 /* Section Paddings
@@ -3362,27 +3362,27 @@ ul.footer-flickr {
 .sec-m-margin-1 {
   margin-top: 0px;
 }
-/*============ Page Section pattrens ============ */
+/*============ Page Section patterns ============ */
 
-.sec-pattren-1 {
+.sec-pattern-1 {
   width: 100%;
-  background: url(../images/bg-pattrens/pattren1.jpg) repeat;
+  background: url(../images/bg-patterns/pattern1.jpg) repeat;
 }
-.sec-pattren-2 {
+.sec-pattern-2 {
   width: 100%;
-  background: url(../images/bg-pattrens/pattren2.jpg) repeat;
+  background: url(../images/bg-patterns/pattern2.jpg) repeat;
 }
-.sec-pattren-3 {
+.sec-pattern-3 {
   width: 100%;
-  background: url(../images/bg-pattrens/pattren3.jpg) repeat;
+  background: url(../images/bg-patterns/pattern3.jpg) repeat;
 }
-.sec-pattren-4 {
+.sec-pattern-4 {
   width: 100%;
-  background: url(../images/bg-pattrens/pattren4.jpg) repeat;
+  background: url(../images/bg-patterns/pattern4.jpg) repeat;
 }
-.sec-pattren-5 {
+.sec-pattern-5 {
   width: 100%;
-  background: url(../images/bg-pattrens/pattren5.jpg) repeat;
+  background: url(../images/bg-patterns/pattern5.jpg) repeat;
 }
 
 /*============ Footer Styles ============ */

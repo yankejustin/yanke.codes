@@ -2443,7 +2443,7 @@ top: 408px;
 	float:left;
 	z-index:2;
 }
-.ce-feature-box-40 .pattren-box{
+.ce-feature-box-40 .pattern-box{
 	position: absolute;
 	width:90%;
 	height:550px;
@@ -3624,7 +3624,7 @@ box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.04);
 	float:left;
 	z-index:2;
 }
-.ce-feature-box-65 .pattren-box{
+.ce-feature-box-65 .pattern-box{
 	position: absolute;
 	width:90%;
 	height:480px;
@@ -5289,7 +5289,7 @@ box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.1);
     position: static;
 	margin-top:30px;
 }
-.ce-feature-box-65 .pattren-box {
+.ce-feature-box-65 .pattern-box {
 	display:none;
 }
 .ce-feature-box-54 {
@@ -5306,11 +5306,11 @@ box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.1);
     position: static;
 }
 
-.ce-feature-box-40 .pattren-box {
+.ce-feature-box-40 .pattern-box {
     position: static;
 }
 
-.ce-feature-box-40 .pattren-box {
+.ce-feature-box-40 .pattern-box {
     position: static;
     height: 715px;
 }
@@ -5433,7 +5433,7 @@ box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.1);
 .ce-feature-box-16 .main-box .inner-box {
     position: static;
 }
-.ce-feature-box-40 .pattren-box {
+.ce-feature-box-40 .pattern-box {
     position: static;
     height: 605px;
 }
@@ -5481,7 +5481,7 @@ box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.1);
 .ce-feature-box-29 {
     margin-bottom: 30px;
 }
-.ce-feature-box-40 .pattren-box {
+.ce-feature-box-40 .pattern-box {
     height: 465px;
 }
 .ce-feature-box-49 .text-box {
@@ -5521,7 +5521,7 @@ box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.1);
 .ce-feature-box-35 .newsletter-btn {
     width: 100%;
 }
-.ce-feature-box-40 .pattren-box {
+.ce-feature-box-40 .pattern-box {
     height: 350px;
 }
 
