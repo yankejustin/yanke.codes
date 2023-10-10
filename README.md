@@ -14,8 +14,7 @@ Website for professional display.
 
 - **[✔️] Setup**
 - **[✔️] Design**: Initial simple design complete
-- **[ ]** Progress: About 30% completed. _(Pending sections: Testimonials, Blog)_
-- **[✔️]** Deploying: Yet to choose between Vercel and Netlify.
+- **[ ]** Progress: About 50% completed.
 
 ---
 
