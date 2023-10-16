@@ -703,3 +703,42 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+/* Focus styles for keyboard navigation */
+*:focus {
+    outline: 2px solid #007BFF; /* Adjust color as needed */
+    outline-offset: 2px;
+}
+
+/* Skip link for better keyboard accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #007BFF; /* Adjust color as needed */
+    color: white;
+    padding: 10px;
+    z-index: 100;
+    transition: top 0.3s;
+}
+
+    .skip-link:focus {
+        top: 0;
+    }
+
+/* Static "Top" button styles */
+.to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #007BFF; /* Adjust color as needed */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+    .to-top:hover {
+        background: #0056b3; /* Adjust color as needed */
+    }
+

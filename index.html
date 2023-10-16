@@ -58,7 +58,9 @@
     <script defer data-domain="yanke.codes" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
-    <header class="header">
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <header class="header" role="banner">
         <div class="header__content">
             <div class="header__logo-container">
                 <div class="header__logo-img-cont">
@@ -68,7 +70,7 @@
                 </div>
                 <span class="header__logo-sub">yanke.codes</span>
             </div>
-            <div class="header__main">
+            <div class="header__main" role="navigation">
                 <ul class="header__links">
                     <li class="header__link-wrapper">
                         <a href="./index.html" class="header__link"> Home </a>
@@ -117,6 +119,7 @@
             </div>
         </div>
     </header>
+
     <section class="home-hero">
         <div class="home-hero__content">
             <h1 class="heading-primary">I'm Justin Yanke</h1>
@@ -131,30 +134,30 @@
         </div>
         <div class="home-hero__socials">
             <div class="home-hero__social">
-                <a href="https://www.linkedin.com/in/yankejustin" target="_blank" class="home-hero__social-icon-link">
+                <a href="https://www.linkedin.com/in/yankejustin" target="_blank" class="home-hero__social-icon-link" aria-label="Visit Justin's LinkedIn Profile">
                     <img src="./assets/png/linkedin-ico.png"
-                         alt="icon"
+                         alt="LinkedIn Logo"
                          class="home-hero__social-icon" />
                 </a>
             </div>
             <div class="home-hero__social">
-                <a href="https://github.com/yankejustin" target="_blank" class="home-hero__social-icon-link">
+                <a href="https://github.com/yankejustin" target="_blank" class="home-hero__social-icon-link" aria-label="Visit Justin's Github Profile">
                     <img src="./assets/png/github-ico.png"
-                         alt="icon"
+                         alt="Github Logo"
                          class="home-hero__social-icon" />
                 </a>
             </div>
             <div class="home-hero__social">
-                <a href="https://www.facebook.com/yanke.codes" target="_blank" class="home-hero__social-icon-link">
+                <a href="https://www.facebook.com/yanke.codes" target="_blank" class="home-hero__social-icon-link" aria-label="Visit Justin's Facebook Business Profile">
                     <img src="./assets/png/facebook-ico.png"
-                         alt="icon"
+                         alt="Facebook Logo"
                          class="home-hero__social-icon" />
                 </a>
             </div>
             <div class="home-hero__social">
-                <a href="https://www.youtube.com/@yankejustin" target="_blank" class="home-hero__social-icon-link">
+                <a href="https://www.youtube.com/@yankejustin" target="_blank" class="home-hero__social-icon-link" aria-label="Visit Justin's Youtube Profile">
                     <img src="./assets/png/yt-ico.png"
-                         alt="icon"
+                         alt="Youtube Logo"
                          class="home-hero__social-icon" />
                 </a>
             </div>
@@ -178,156 +181,163 @@
             <div class="mouse"></div>
         </div>
     </section>
-    <section id="about" class="about sec-pad">
-        <div class="main-container">
-            <h2 class="heading heading-sec heading-sec__mb-med">
-                <span class="heading-sec__main">About Me</span>
-                <span class="heading-sec__sub">
-                    Self-taught software engineer with passion for collaboration and automation.
-                </span>
-            </h2>
-            <div class="about__content">
-                <div class="about__content-main">
-                    <h3 class="about__content-title">Who I am</h3>
-                    <div class="about__content-details">
-                        <p class="about__content-details-para">
-                            I am a seasoned Software Engineer based in Ohio, USA with extensive experience collaborating with diverse companies across various industries. Throughout my career, I've had the privilege of working alongside talented professionals to deliver cutting-edge software solutions.
-                        </p>
-                        <p class="about__content-details-para">
-                            I have always been passionate about technology. I pride myself on being a dedicated professional with a broad spectrum of interests. Feel free to <strong>contact</strong> me.
-                        </p>
-                    </div>
-                    <a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
-                </div>
-                <div class="about__content-skills">
-                    <h3 class="about__content-title">My Skills</h3>
-                    <div class="skills">
-                        <div class="skills__skill">Software Engineering</div>
-                        <div class="skills__skill">Website Development</div>
-                        <div class="skills__skill">Mobile Application Development</div>
-                        <div class="skills__skill">Database Management</div>
-                        <div class="skills__skill">Cloud Solutions</div>
-                        <div class="skills__skill">DevOps Practices</div>
-                        <div class="skills__skill">Legacy System Expertise</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--
-    <section id="projects" class="projects sec-pad">
-        <div class="main-container">
-            <h2 class="heading heading-sec heading-sec__mb-bg">
-                <span class="heading-sec__main">Projects</span>
-                <span class="heading-sec__sub">
-                    Project description (projects coming soon)
-                </span>
-            </h2>
 
-            <div class="projects__content">
-                <div class="projects__row">
-                    <div class="projects__row-img-cont">
-                        <img src="./assets/jpeg/project-mockup-example.jpeg"
-                             alt="Software Screenshot"
-                             class="projects__row-img"
-                             loading="lazy" />
+    <main id="main-content" role="main">
+        <section id="about" class="about sec-pad">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-med">
+                    <span class="heading-sec__main">About Me</span>
+                    <span class="heading-sec__sub">
+                        Self-taught software engineer with passion for collaboration and automation.
+                    </span>
+                </h2>
+                <div class="about__content">
+                    <div class="about__content-main">
+                        <h3 class="about__content-title">Who I am</h3>
+                        <div class="about__content-details">
+                            <p class="about__content-details-para">
+                                I am a seasoned Software Engineer based in Ohio, USA with extensive experience collaborating with diverse companies across various industries. Throughout my career, I've had the privilege of working alongside talented professionals to deliver cutting-edge software solutions.
+                            </p>
+                            <p class="about__content-details-para">
+                                I have always been passionate about technology. I pride myself on being a dedicated professional with a broad spectrum of interests. Feel free to <strong>contact</strong> me.
+                            </p>
+                        </div>
+                        <a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
                     </div>
-                    <div class="projects__row-content">
-                        <h3 class="projects__row-content-title">Project 1</h3>
-                        <p class="projects__row-content-desc">
-                            desc
-                        </p>
-                        <a href="./project-1.html"
-                           class="btn btn--med btn--theme dynamicBgClr"
-                           target="_blank">Further Details</a>
-                    </div>
-                </div>
-                <div class="projects__row">
-                    <div class="projects__row-img-cont">
-                        <img src="./assets/jpeg/project-mockup-example.jpeg"
-                             alt="Software Screenshot"
-                             class="projects__row-img"
-                             loading="lazy" />
-                    </div>
-                    <div class="projects__row-content">
-                        <h3 class="projects__row-content-title">Project 2</h3>
-                        <p class="projects__row-content-desc">
-                            desc
-                        </p>
-                        <a href="./project-2.html"
-                           class="btn btn--med btn--theme dynamicBgClr"
-                           target="_blank">Further Details</a>
-                    </div>
-                </div>
-                <div class="projects__row">
-                    <div class="projects__row-img-cont">
-                        <img src="./assets/jpeg/project-mockup-example.jpeg"
-                             alt="Software Screenshot"
-                             class="projects__row-img"
-                             loading="lazy" />
-                    </div>
-                    <div class="projects__row-content">
-                        <h3 class="projects__row-content-title">Project 3</h3>
-                        <p class="projects__row-content-desc">
-                            desc
-                        </p>
-                        <a href="./project-3.html"
-                           class="btn btn--med btn--theme dynamicBgClr"
-                           target="_blank">Further Details</a>
+                    <div class="about__content-skills">
+                        <h3 class="about__content-title">My Skills</h3>
+                        <div class="skills">
+                            <div class="skills__skill">Software Engineering</div>
+                            <div class="skills__skill">Website Development</div>
+                            <div class="skills__skill">Mobile Application Development</div>
+                            <div class="skills__skill">Database Management</div>
+                            <div class="skills__skill">Cloud Solutions</div>
+                            <div class="skills__skill">DevOps Practices</div>
+                            <div class="skills__skill">Legacy System Expertise</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-        -->
-    <section id="contact" class="contact sec-pad dynamicBg">
-        <div class="main-container">
-            <h2 class="heading heading-sec heading-sec__mb-med">
-                <span class="heading-sec__main heading-sec__main--lt">Contact Me</span>
-                <span class="heading-sec__sub heading-sec__sub--lt">
-                    Email me - <a href="mailto:justin@yanke.codes">justin@yanke.codes</a>
-                </span>
-            </h2>
-            <!--
-                <div class="contact__form-container">
-                    <form action="#" class="contact__form">
-                        <div class="contact__form-field">
-                            <label class="contact__form-label" for="name">Name</label>
-                            <input required
-                                   placeholder="Enter Your Name"
-                                   type="text"
-                                   class="contact__form-input"
-                                   name="name"
-                                   id="name" />
+        </section>
+        <!--
+        <section id="projects" class="projects sec-pad">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-bg">
+                    <span class="heading-sec__main">Projects</span>
+                    <span class="heading-sec__sub">
+                        Project description (projects coming soon)
+                    </span>
+                </h2>
+
+                <div class="projects__content">
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img src="./assets/jpeg/project-mockup-example.jpeg"
+                                 alt="Software Screenshot"
+                                 class="projects__row-img"
+                                 loading="lazy" />
                         </div>
-                        <div class="contact__form-field">
-                            <label class="contact__form-label" for="email">Email</label>
-                            <input required
-                                   placeholder="Enter Your Email"
-                                   type="text"
-                                   class="contact__form-input"
-                                   name="email"
-                                   id="email" />
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">Project 1</h3>
+                            <p class="projects__row-content-desc">
+                                desc
+                            </p>
+                            <a href="./project-1.html"
+                               class="btn btn--med btn--theme dynamicBgClr"
+                               target="_blank">Further Details</a>
                         </div>
-                        <div class="contact__form-field">
-                            <label class="contact__form-label" for="message">Message</label>
-                            <textarea required
-                                      cols="30"
-                                      rows="10"
-                                      class="contact__form-input"
-                                      placeholder="Enter Your Message"
-                                      name="message"
-                                      id="message"></textarea>
+                    </div>
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img src="./assets/jpeg/project-mockup-example.jpeg"
+                                 alt="Software Screenshot"
+                                 class="projects__row-img"
+                                 loading="lazy" />
                         </div>
-                        <button type="submit" class="btn btn--theme contact__btn">
-                            Send
-                        </button>
-                    </form>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">Project 2</h3>
+                            <p class="projects__row-content-desc">
+                                desc
+                            </p>
+                            <a href="./project-2.html"
+                               class="btn btn--med btn--theme dynamicBgClr"
+                               target="_blank">Further Details</a>
+                        </div>
+                    </div>
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img src="./assets/jpeg/project-mockup-example.jpeg"
+                                 alt="Software Screenshot"
+                                 class="projects__row-img"
+                                 loading="lazy" />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">Project 3</h3>
+                            <p class="projects__row-content-desc">
+                                desc
+                            </p>
+                            <a href="./project-3.html"
+                               class="btn btn--med btn--theme dynamicBgClr"
+                               target="_blank">Further Details</a>
+                        </div>
+                    </div>
                 </div>
-            </div>-->
-        </div>
-    </section>
-    <footer class="main-footer">
+            </div>
+        </section>
+            -->
+        <section id="contact" class="contact sec-pad dynamicBg">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-med">
+                    <span class="heading-sec__main heading-sec__main--lt">Contact Me</span>
+                    <span class="heading-sec__sub heading-sec__sub--lt">
+                        Email me - <a href="mailto:justin@yanke.codes">justin@yanke.codes</a>
+                    </span>
+                </h2>
+                <!--
+                    <div class="contact__form-container">
+                        <form action="#" class="contact__form">
+                            <div class="contact__form-field">
+                                <label class="contact__form-label" for="name">Name</label>
+                                <input required
+                                       placeholder="Enter Your Name"
+                                       type="text"
+                                       class="contact__form-input"
+                                       name="name"
+                                       id="name" />
+                            </div>
+                            <div class="contact__form-field">
+                                <label class="contact__form-label" for="email">Email</label>
+                                <input required
+                                       placeholder="Enter Your Email"
+                                       type="text"
+                                       class="contact__form-input"
+                                       name="email"
+                                       id="email" />
+                            </div>
+                            <div class="contact__form-field">
+                                <label class="contact__form-label" for="message">Message</label>
+                                <textarea required
+                                          cols="30"
+                                          rows="10"
+                                          class="contact__form-input"
+                                          placeholder="Enter Your Message"
+                                          name="message"
+                                          id="message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--theme contact__btn">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                </div>-->
+            </div>
+        </section>
+    </main>
+
+    <!-- Static "Top" Button -->
+    <button onclick="window.scrollTo(0,0);" aria-label="Back to top" class="to-top">Top</button>
+
+    <footer class="main-footer" role="contentinfo">
         <div class="main-container">
             <div class="main-footer__upper">
                 <div class="main-footer__row main-footer__row-1">
