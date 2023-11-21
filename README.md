@@ -23,3 +23,4 @@ Website for professional display.
 ### 🛠 **Technical Information**
 
 - **Hosting**: Azure Static Web App
+- **DNS**: NameCheap
