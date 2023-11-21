@@ -2,7 +2,7 @@
 
 # **Software Engineer Portfolio: Justin Yanke**
 
-A personal space to showcase my skills, projects, and journey as a software engineer.
+A space to showcase my skills, projects, and journey as a software engineer.
 
 ---
 
